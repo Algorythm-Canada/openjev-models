@@ -1,0 +1,8 @@
+Algorythm-Canada/openjev-models
+
+Core ML conversions of the encoder models OpenJevSwift serves, converted with
+Tools/encoders of https://github.com/Algorythm-Canada/OpenJevSwift. The weights are
+the checkpoints' own, under their Apache-2.0 license:
+
+- Verdict by Heman10x: heman10x/rlcd-modernbert-151m on Hugging Face, revision 8af2496
+- Laya by Nandakishor M / Convai Innovations (github.com/NandhaKishorM/laya): convaiinnovations/laya-typed-decisions on Hugging Face, revision 1a793eb
