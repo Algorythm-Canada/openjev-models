@@ -1,7 +1,9 @@
-# openjev-models
+<a name="openjev-models"></a>
 
-Core ML conversions of the models that [OpenJevSwift](https://github.com/Algorythm-Canada/OpenJevSwift)
-serves on iOS and macOS. Nothing here is trained by this organisation: each package is a
+# OpenJev Models: Core ML packages for iOS and macOS
+
+Core ML model packages used by [OpenJevSwift](https://github.com/Algorythm-Canada/OpenJevSwift)
+for typed AI decisions on iOS and macOS (iPhone and Mac). Nothing here is trained by this organisation: each package is a
 conversion of another author's checkpoint, published under that checkpoint's license. The
 weights are the authors' own, stored as float16 in Apple's Core ML format.
 
@@ -17,7 +19,9 @@ under their paths with `/` replaced by `--`, so a device downloads them one by o
 archive to unpack. How the packages are converted, checked and published is documented in
 OpenJevSwift under `Tools/encoders/` and decision D-033.
 
-## Packages
+<a name="packages"></a>
+
+## Core ML model packages
 
 | Release | Model | Runs on | Input shapes | Size |
 |---|---|---|---|---|
